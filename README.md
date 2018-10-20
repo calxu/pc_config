@@ -1,2 +1,2 @@
 # PC-Config
-个人Mac本的配置
+Linux远程免密登陆配置
