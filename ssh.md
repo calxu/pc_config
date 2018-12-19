@@ -17,3 +17,11 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub work@192.168.1.101
 ```
 ssh work@192.168.1.101
 ```
+
+如果还是需要密码登录，则尝试将work@192.168.1.101机器上的:
+```
+chmod g-w ~/
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+```
+SSH不希望home目录和~/.ssh目录对组有写权限，如果还有问题，可以通过ssh -vvv来查看调试信息。
