@@ -46,7 +46,7 @@ function extract () {
 
 
 # source other script
-# source ./work.rc/work.rc
+# source ./mybashrc/work.rc
 
 
 echo -e "\ndone\n"
