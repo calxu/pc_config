@@ -20,4 +20,4 @@
 
 ## 参考
 
-1. [github其它bahsrc](https://github.com/rkirti/bashrc)
+1. [github其它bashrc](https://github.com/rkirti/bashrc)
