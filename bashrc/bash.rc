@@ -9,7 +9,7 @@ echo -e "\n========== install my own environment ==========\n"
 
 # alias
 alias vi='vim'
-alias grep='grep -n --color=auto'
+alias grep='grep --color=auto'
 alias ll='ls -lhF'
 # alias ll='ls -lhFG'    # macos
 
